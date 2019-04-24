@@ -1,0 +1,16 @@
+<%@ page import= "java.util.*,java.text.*" %>
+<html>
+<head>
+  <title>example</title>
+  </head>
+  <body>
+    <%
+      Date date = new Date();
+      SimpleDataFormat simple Date = new SimpleDateFormat("yyy-MM-dd");
+      String strdate =simpleDate.format(date);
+    %>
+
+  일반적인 HTML 페이지의 형태입니다. <br>
+  오늘 날짜는 <%=strdate%>입니다.
+  </body>
+  </html>
